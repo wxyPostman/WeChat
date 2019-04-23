@@ -1,0 +1,105 @@
+* {
+    font-family: "微软雅黑";
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.clearfix::after {
+    height: 0;
+    visibility: hidden;
+    clear: both;
+    content: "";
+    display: block;
+}
+
+html, body {
+    background: url(../images/timg.jpg) no-repeat;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+.box {
+    min-width: 400px;
+    margin: 200px auto;
+    text-align: center;
+    position: relative;
+    max-width: 420px;
+}
+
+.bg_opacity {
+    background: #ffffff;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: 1;
+    border-radius: 6px;
+}
+
+.user_info {
+    opacity: 1;
+    padding: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+.user_title {
+    color: #ffffff;
+}
+
+.user_title h3 {
+    font-size: 30px;
+}
+
+.user_i {
+    background-color: #36C0C2;
+    color: #fff;
+    font-size: 24px;
+    float: left;
+    width: 40px;
+    height: 42px;
+    line-height: 42px;
+}
+.user_input{
+    margin-top: 30px;
+}
+
+.user_input_text {
+    float: left;
+    width: 320px;
+}
+
+.user_input_text input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #36C0C2;
+    text-indent: 1em;
+    font-size: 18px;
+}
+
+.user_input_text input:focus {
+    border-color: #36C0C2;
+}
+.btn_submit{
+    width: 100%;
+    height: 40px;
+    background-color: #36C0C2;
+    border: none;
+    cursor: pointer;
+}
+.btn_submit a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+.goto_register{
+    float: right;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
